@@ -4,11 +4,16 @@ using UnityEngine;
 
 public class ButtonHandler : MonoBehaviour
 {
-    public GameObject bouncyBall;
+    public GameObject player;
 
-    public void SpawnBall()
+    private void Update()
+    {
+        // Debug.Log(player.GetComponent<CharacterController>().isGrounded);    
+    }
+
+    public void SpawnPlayer()
     {
         Debug.Log("Click");
-        Instantiate(bouncyBall, Camera.main.transform.position + 0.2f * Camera.main.transform.forward, Quaternion.identity);
+        Instantiate(player, Camera.main.transform.position + 0.2f * Camera.main.transform.forward, Quaternion.identity);
     }
 }
