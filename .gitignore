@@ -2,11 +2,10 @@
 #
 # Get latest from https://github.com/github/gitignore/blob/main/Unity.gitignore
 #
-/UnityProject/Library/
-/UnityProject/Temp/
+/UnityProject/[Ll]ibrary/
+/UnityProject/[Tt]emp/
 /UnityProject/[Oo]bj/
 /UnityProject/[Bb]uild/
-/UnityProject/[Bb]uilds/
 /UnityProject/Logs/
 /UnityProject/[Uu]ser[Ss]ettings/
 

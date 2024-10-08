@@ -4,16 +4,18 @@ using UnityEngine;
 
 public class ButtonHandler : MonoBehaviour
 {
-    public GameObject player;
-
-    private void Update()
+    public void SpawnPlayerButtonClick()
     {
-        // Debug.Log(player.GetComponent<CharacterController>().isGrounded);    
+        GameManager.Instance.SpawnPlayer();
     }
 
-    public void SpawnPlayer()
+    public void RunButtonDown()
     {
-        Debug.Log("Click");
-        Instantiate(player, Camera.main.transform.position + 0.2f * Camera.main.transform.forward, Quaternion.identity);
+        GameManager.Instance.Player.GetComponent<MovementController>().StartRunning();
+    }
+
+    public void RunButtonUp()
+    {
+        GameManager.Instance.Player.GetComponent<MovementController>().StopRunning();
     }
 }

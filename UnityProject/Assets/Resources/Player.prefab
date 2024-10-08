@@ -136,6 +136,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 8560232230363666548}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: d746e91531087c941aeb3dbd5d8249cc,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -7331850071517732418}
   m_SourcePrefab: {fileID: 100100000, guid: d746e91531087c941aeb3dbd5d8249cc, type: 3}
 --- !u!1 &4120394601239843299 stripped
 GameObject:
@@ -169,3 +173,15 @@ CharacterController:
   m_SkinWidth: 0.02
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 0.96, z: 0}
+--- !u!114 &-7331850071517732418
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4120394601239843299}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69a4c9041ec411b4c890f6eff89df227, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
